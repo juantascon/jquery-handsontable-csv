@@ -21,10 +21,11 @@ var handsontable2csv = {
     
     download: function(instance, filename) {
         var csv = handsontable2csv.string(instance)
-        console.log(csv)
+
         var link = document.createElement("a");
         link.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(csv));
         link.setAttribute("download", filename);
+
         document.body.appendChild(link)
         link.click();
         document.body.removeChild(link)
