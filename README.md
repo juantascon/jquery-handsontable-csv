@@ -4,7 +4,7 @@ jquery-handsontable-csv is an utility to export handsontable as csv files.
 It includes functions to: 
 
 * Generate a string for later processing
-* Trigger a download of the generated csv file
+* Trigger a download of the generated csv file (use [FileSaver.js](https://github.com/eligrey/FileSaver.js/) for a browser compatible solution)
 
 ## Example:
 
