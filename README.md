@@ -22,24 +22,22 @@ Make sure you include the js file right after handsontable.js and before handson
 
 On js create a handsontable with some data (visit the [handsontable docs](https://github.com/warpech/jquery-handsontable/wiki/Options#constructor-options) for more info):
 
-``` js
+``` javascript
 $("#table").handsontable({
     ...
 });
-
 var instance = $("#table").handsontable('getInstance');
-
 instance.loadData( ... );
 ```
 
 You can now generate the csv file as string:
 
-``` js
-var csv_string = handsontable2csv.string(instace);
+``` javascript
+var csv_string = handsontable2csv.string(instance);
 ```
 
 Or trigger a download:
 
-``` js
+``` javascript
 handsontable2csv.download(instance, "filename.csv");
 ```
