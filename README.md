@@ -13,9 +13,9 @@ Make sure you include the js file right after handsontable.js and before handson
 ``` html
 ...
 
-<script src="include/javascript/jquery.handsontable.full.js"></script>
-<script src="include/javascript/jquery.handsontable.csv.js"></script>
-<link rel="stylesheet" media="screen" href="include/javascript/jquery.handsontable.full.css">
+<script src="js/jquery.handsontable.full.js"></script>
+<script src="js/jquery.handsontable.csv.js"></script>
+<link rel="stylesheet" media="screen" href="css/jquery.handsontable.full.css">
 
 ...
 ```
