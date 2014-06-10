@@ -8,7 +8,7 @@ It includes functions to:
 
 ## Example:
 
-Make sure you include the js file right after handsontable.js and before handsontable.css, example:
+Include the js file right after handsontable.js and before handsontable.css, example:
 
 ``` html
 ...
