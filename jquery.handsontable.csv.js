@@ -2,6 +2,10 @@ var handsontable2csv = {
     string: function(instance) {
         var headers = instance.getColHeader();
         
+        // console.log(headers);
+        // var csv = "sep=;\n"
+        // csv += headers.join(";") + "\n";
+        // when colHeaders: false,  the headers will be "false"
         var csv = "sep=;\n"
         csv += headers.join(";") + "\n";
         
